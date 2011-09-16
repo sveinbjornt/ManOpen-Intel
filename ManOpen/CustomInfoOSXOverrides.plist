@@ -1,0 +1,39 @@
+{
+    NSTypes = (
+	{
+	    NSName = "man";
+	    NSHumanReadableName = "Man page (nroff source)";
+	    NSUnixExtensions = ("man", 1, 2, 3, 4, 5, 6, 7, 8, 9);
+	    NSDOSExtensions = ("man");
+	    NSRole = Viewer;
+	    NSDocumentClass = ManDocument;
+	    CFBundleTypeIconFile = "ManOpen.icns";
+	},
+	{
+	    NSName = "mangz";
+	    NSHumanReadableName = "Man page (nroff source), gzipped";
+	    NSUnixExtensions = ("man.gz");
+	    NSRole = Viewer;
+	    NSDocumentClass = ManDocument;
+	    CFBundleTypeIconFile = "ManOpen.icns";
+	},
+	{
+	    NSName = "cat";
+	    NSHumanReadableName = "Cat file (plain text)";
+	    NSUnixExtensions = ("cat");
+	    NSDOSExtensions = ("cat");
+	    NSRole = Viewer;
+	    NSDocumentClass = ManDocument;
+	    CFBundleTypeIconFile = "ManOpen.icns";
+	},
+	{
+	    NSName = "catgz";
+	    NSHumanReadableName = "Cat file (plain text), gzipped";
+	    NSUnixExtensions = ("cat.gz");
+	    NSRole = Viewer;
+	    NSDocumentClass = ManDocument;
+	    CFBundleTypeIconFile = "ManOpen.icns";
+	}
+	);
+
+}

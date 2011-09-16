@@ -1,0 +1,22 @@
+"FindPanelController" = {
+    ACTIONS = {
+        "enterSelection:" = id; 
+        "findNext:" = id; 
+        "findPrevious:" = id; 
+        "jumpToSelection:" = id; 
+    }; 
+    OUTLETS = {
+        ignoreCaseButton = id; 
+        nextButton = id; 
+        previousButton = id; 
+        statusField = id; 
+        stringField = id; 
+    }; 
+    SUPERCLASS = NSWindowController; 
+};
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"NSWindowController" = {
+    ACTIONS = {"showWindow:" = id; }; 
+    OUTLETS = {window = id; }; 
+    SUPERCLASS = NSObject; 
+};

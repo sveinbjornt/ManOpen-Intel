@@ -1,0 +1,61 @@
+
+ManOpen v2.5.1 by Carl Lindberg  November 2005
+
+	Please send any comments, suggestions or bug reports to
+	lindberg@clindberg.org.
+
+	This program is provided ``AS IS'' and without any warranty.
+
+
+	ManOpen is a graphical interface for viewing Unix manual pages,
+which are the standard documentation for Unix command line programs,
+programmer libraries, and other system information.  It can open files
+directly or be given titles, in which case it will display the output
+from the "man" command-line program.  An apropos interface is also
+provided, which is basically a quick-and-dirty search of the man page
+databases.  Services are provided to other applications to open selected
+files/titles or do apropos searches using the selected text.
+
+	Version 2.5.1 changes:
+
+    - No longer declares 1, 2, 3, 4, ... , 9 file extensions as man pages.
+      This caused problems on some systems.
+    - Page loading got slower under MacOS 10.4.2; this should be fixed.
+    - Handled some cases where UTF8 sequences appeared in the man page.
+    - Add support for the "n" man page section, (ab)used by Tcl for
+      its man pages.
+
+	ManOpen can be useful for opening a man page without dropping
+down to the command line, browsing and searching through long and
+complex man pages, or simply for printing them out.
+
+	Also included is an "openman" command line tool, which is similar
+to "man" except it will display the man pages in ManOpen.app instead
+of directly to the terminal.
+
+	ManOpen should run on MacOS X 10.x, MacOS X Server 1.2, and
+OPENSTEP/Mach machines.  Source code is available.  To install the app,
+put ManOpen.app in one of the standard Application directories, such
+as /Network/Applications, /Applications or ~/Applications.  You may
+have to log out and back to have the services work.
+
+    To install the "openman" tool, put it in one of the directories in
+the Unix $PATH, such as /usr/local/bin.  Put its "openman.1" man page
+in a standard man page directory, such as /usr/local/man/man1.
+[Note that as of MacOS X 10.2, /usr/local/bin is not part of the
+default PATH.  Adding "set path = (/usr/local/bin $path)" to your
+~/.cshrc file is one way to set it back.]
+
+
+	For those who remember, there was a ManOpen 1.0 application
+by Harald Schlangmann that ran on NEXTSTEP computers.  This is a much
+updated version that adds many features.  Thanks are due to
+Mr. Schlangmann for the inspiration, and his internal cat2rtf tool
+which is also used in this version.
+
+	Hope you find this useful,
+	
+	-Carl Lindberg
+	lindberg@clindberg.org
+	lindberg@mac.com
+

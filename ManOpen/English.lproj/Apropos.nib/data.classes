@@ -1,0 +1,6 @@
+"AproposDocument" = {
+    ACTIONS = {"openManPages:" = id; }; 
+    OUTLETS = {tableView = id; titleColumn = id; }; 
+    SUPERCLASS = NSDocument; 
+};
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };

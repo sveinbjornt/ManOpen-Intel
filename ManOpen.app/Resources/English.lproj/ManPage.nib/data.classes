@@ -1,0 +1,30 @@
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"ManDocument" = {
+    ACTIONS = {
+        "displaySection:" = id; 
+        "openSelection:" = id; 
+        "saveCurrentWindowSize:" = id; 
+        "searchForSelection:" = id; 
+    }; 
+    OUTLETS = {
+        findSelectionButton = id; 
+        openSelectionButton = id; 
+        sectionPopup = id; 
+        textView = id; 
+        titleStringField = id; 
+    }; 
+    SUPERCLASS = NSDocument; 
+};
+"ManTextView" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSTextView; };
+"NSDocument" = {
+    ACTIONS = {
+        "printDocument:" = id; 
+        "revertDocumentToSaved:" = id; 
+        "runPageLayout:" = id; 
+        "saveDocument:" = id; 
+        "saveDocumentAs:" = id; 
+        "saveDocumentTo:" = id; 
+    }; 
+    OUTLETS = {window = id; }; 
+    SUPERCLASS = NSObject; 
+};

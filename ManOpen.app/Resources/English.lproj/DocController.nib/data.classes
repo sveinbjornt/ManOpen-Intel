@@ -1,0 +1,30 @@
+"CancelOpenPanel" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSPanel; };
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"ManDocumentController" = {
+    ACTIONS = {
+        "cancelText:" = id; 
+        "okApropos:" = id; 
+        "okText:" = id; 
+        "openAproposPanel:" = id; 
+        "openSection:" = id; 
+        "openTextPanel:" = id; 
+        "orderFrontFindPanel:" = id; 
+        "orderFrontHelpPanel:" = id; 
+        "orderFrontPreferencesPanel:" = id; 
+    }; 
+    OUTLETS = {
+        aproposField = id; 
+        aproposPanel = id; 
+        helpPanel = id; 
+        infoPanel = id; 
+        openSectionPopup = id; 
+        openTextField = id; 
+        openTextPanel = id; 
+    }; 
+    SUPERCLASS = NSDocumentController; 
+};
+"NSDocumentController" = {
+    ACTIONS = {"newDocument:" = id; "openDocument:" = id; "saveAllDocuments:" = id; }; 
+    OUTLETS = {}; 
+    SUPERCLASS = NSObject; 
+};

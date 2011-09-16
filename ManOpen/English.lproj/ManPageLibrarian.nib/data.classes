@@ -1,0 +1,18 @@
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"ManDocument" = {
+    ACTIONS = {"openSelection:" = id; "searchForSelection:" = id; }; 
+    OUTLETS = {textView = id; titleStringField = id; }; 
+    SUPERCLASS = NSDocument; 
+};
+"NSDocument" = {
+    ACTIONS = {
+        "printDocument:" = id; 
+        "revertDocumentToSaved:" = id; 
+        "runPageLayout:" = id; 
+        "saveDocument:" = id; 
+        "saveDocumentAs:" = id; 
+        "saveDocumentTo:" = id; 
+    }; 
+    OUTLETS = {window = id; }; 
+    SUPERCLASS = NSObject; 
+};
